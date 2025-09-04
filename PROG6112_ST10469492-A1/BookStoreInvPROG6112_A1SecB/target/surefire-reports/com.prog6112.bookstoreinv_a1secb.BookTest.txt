@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.prog6112.bookstoreinv_a1secb.BookTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 6, Skipped: 0, Time elapsed: 0.109 s <<< FAILURE! - in com.prog6112.bookstoreinv_a1secb.BookTest
+testUpdateStock_Decrement  Time elapsed: 0.067 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.prog6112.bookstoreinv_a1secb.Book.updateStock(int)" because "this.testBook" is null
+	at com.prog6112.bookstoreinv_a1secb.BookTest.testUpdateStock_Decrement(BookTest.java:51)
+
+testGetters  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.prog6112.bookstoreinv_a1secb.Book.getTitle()" because "this.testBook" is null
+	at com.prog6112.bookstoreinv_a1secb.BookTest.testGetters(BookTest.java:63)
+
+testBookConstructor  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Book object should not be null after construction ==> expected: not <null>
+	at com.prog6112.bookstoreinv_a1secb.BookTest.testBookConstructor(BookTest.java:27)
+
+testUpdateStock_PreventNegative  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.prog6112.bookstoreinv_a1secb.Book.updateStock(int)" because "this.testBook" is null
+	at com.prog6112.bookstoreinv_a1secb.BookTest.testUpdateStock_PreventNegative(BookTest.java:57)
+
+testSetters  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.prog6112.bookstoreinv_a1secb.Book.setTitle(String)" because "this.testBook" is null
+	at com.prog6112.bookstoreinv_a1secb.BookTest.testSetters(BookTest.java:71)
+
+testUpdateStock_Increment  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.prog6112.bookstoreinv_a1secb.Book.updateStock(int)" because "this.testBook" is null
+	at com.prog6112.bookstoreinv_a1secb.BookTest.testUpdateStock_Increment(BookTest.java:45)
+
+testSetPrice  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.prog6112.bookstoreinv_a1secb.Book.setPrice(double)" because "this.testBook" is null
+	at com.prog6112.bookstoreinv_a1secb.BookTest.testSetPrice(BookTest.java:36)
+
